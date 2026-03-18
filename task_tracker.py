@@ -150,7 +150,12 @@ def menu_selection() -> str:
 #==========
 # Events
 #==========                           
-#menu loop 
+"""_summary_
+This is the main event loop of the CLI Task Tracking System. 
+It continuously prompts the user for a menu selection and executes the corresponding function based on the user's input. 
+The loop will continue until the user chooses to exit by entering '5' in the menu.
+"""
 while True:
     selection = menu_selection()
     menu_loop(selection,tasks)
+
